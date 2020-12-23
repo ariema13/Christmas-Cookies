@@ -1,7 +1,28 @@
 <head>
     <link rel="stylesheet" href="style.css">
+    <script src="jqueries.js"></script>
 </head>
 
 <body>
-    <h1> Ariemma's Christmas Cookies </h1>
+    <div style="vertical-align: middle">
+        <iframe src="https://giphy.com/embed/tocJoFMglflKM" width="150" height="150" frameBorder="0" class="giphy-embed style="display: inline-block" allowFullScreen></iframe>
+        <h1 style="display: inline-block; vertical-align: top;"> Ariemma's Christmas Cookies </h1>
+        <iframe src="https://giphy.com/embed/tocJoFMglflKM" width="150" height="150" frameBorder="0" class="giphy-embed style="display: inline-block" allowFullScreen></iframe>
+    </div>
+
+    <img src="main_mom_and_allison.jpeg" id="front-image" alt="The Ariemma Bakers"> </img>
+
+    <select id="test" name="form_select" onchange="showDiv(this)">
+        <option selected disabled>Choose a cookie!</option>
+        <option value="crinkles">Crinkles</option>
+        <option value="spritz">Spritz</option>
+        <option value="kisses">Peanut Butter Kisses</option>
+
+    </select>
+
+    <div id="crinkles" class="hidden">Crinkles</div>
+    <div id="spritz" class="hidden">Spritz</div>
+    <div id="peanut-butter-kisses" class="hidden">Peanut Butter</div>
+         
+
 </body>
